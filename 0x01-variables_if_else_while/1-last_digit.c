@@ -21,22 +21,22 @@ int main(void)
         {
                 printf("Last digit of ");
                 printf("%d", n);
-		printf("is %d", (n % 10));
-                printf("is greater than 5\n");
+		printf(" is %d", (n % 10));
+                printf(" and is greater than 5\n");
         }
         else if ((n % 10) == 0)
         {
                 printf("Last digit of ");
                 printf("%d", n);
-		printf("is %d", (n % 10));
-                printf("and is 0\n");
+		printf(" is %d", (n % 10));
+                printf(" and is 0\n");
         }
         else if ((n % 10) < 6)
         {
                printf("Last digit of ");
                 printf("%d", n);
-		printf("is %d", (n % 10));
-                printf("and is less than 6 and not 0\n");
+		printf(" is %d", (n % 10));
+                printf(" and is less than 6 and not 0\n");
         }
         return (0);
 }
