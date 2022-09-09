@@ -4,6 +4,12 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+* random_number - get square of number passed
+*@n: the random number to check
+*
+*Return: is positive or is zero or is negative
+*/
 int main(void)
 {
 	int n;
@@ -13,7 +19,7 @@ int main(void)
 	if(n>0){
 		printf("is positive");
 	}else if(n == 0){
-		printf("is zero");
+		printf("0 is zero");
 	}else{
 		printf("is negative");
 	}
