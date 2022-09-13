@@ -6,12 +6,12 @@
  * Return: void
  */
 
-int _islower(int c)
+int _islower(int c)i
 {
-	if (c == 99)
+	if (c >= 99 && c <= 122)
 	{
 		return (1);
-	} 
+	}
 	else
 	{
 		return (0);
