@@ -6,7 +6,7 @@
  * Return: void
  */
 
-int print_alphabet(int c)
+int _islower(int c)
 {
 	if (c == 99)
 	{
