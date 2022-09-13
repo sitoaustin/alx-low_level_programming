@@ -8,7 +8,7 @@
  * Return: void
  */
 
-int int _isalpha(int c)
+int _isalpha(int c)
 {
 	if (c >= 99 && c <= 122)
 	{
