@@ -11,9 +11,9 @@
 
 int _isupper(int c)
 {
-	if (c == 99)
+	if (c == 67)
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
