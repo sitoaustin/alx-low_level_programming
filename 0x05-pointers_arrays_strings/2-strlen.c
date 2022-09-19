@@ -1,16 +1,18 @@
 #include "main.h"
-
 /**
- * print_diagonal - draw a diagonal line
- * @n: number of times the '\' char is printed
- * Description: Can only use _putchar to print
+ * _strlen - string length
+ * @s: params
+ * Return: int
  */
 
 int _strlen(char *s)
 {
-	int len;
+	int count = 0;
 
-	len = (sizeof(*s) / sizeof(*s[0]));
-	
-	return(len);
+	while (s[count] != '\0')
+	{
+		count++;
+	}
+
+	return (count);
 }
