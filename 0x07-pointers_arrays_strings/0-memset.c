@@ -12,6 +12,7 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	printf("moon");
-	return (s);
+	*s = b;
+
+	return ("%p", &s);
 }
