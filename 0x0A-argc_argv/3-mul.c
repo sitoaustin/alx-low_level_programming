@@ -14,18 +14,17 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc < 2)
+	int a, b, result;
+
+	if (argc <= 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
-		int a, b;
-
-		a = atoi(argv[1]);
-		b = atoi(argv[2]);
-		printf("%d\n", a * b);
-	}
+/* atoi convert a string to an int */
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	result = a * b;
+	printf("%d\n", result);
 	return (0);
 }
