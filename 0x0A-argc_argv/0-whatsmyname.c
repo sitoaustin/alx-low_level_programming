@@ -9,7 +9,7 @@
  * @argv: an array that hold all the items that's being
  * passed into..
  *
- * RETURN: 0
+ * Return: always returns 0
  */
 
 int main(int argc, char *argv[])
