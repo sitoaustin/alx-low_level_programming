@@ -9,10 +9,16 @@
  * @argv: an array that hold all the items that's being
  * passed into..
  *
- * RETURN: void
+ * RETURN: 0
  */
 
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[0]);
+	}
+	return (0);
 }
