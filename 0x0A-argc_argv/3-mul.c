@@ -19,11 +19,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	else if (argc > 2)
-	{
-		printf("Error\n");
-		return (1);
-	}
 	else
 	{
 		int a, b;
