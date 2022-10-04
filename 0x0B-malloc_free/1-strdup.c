@@ -16,7 +16,7 @@ char *_strdup(char *str)
 	char *mem;
 	int sizeof_str = sizeof(str);
 	int size = sizeof(str[0]);
-	int i = sizeof_str / size;
+	int i = (sizeof_str / size) - 1;
 
 	mem = malloc(sizeof(str) * i);
 
